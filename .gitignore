@@ -1,0 +1,53 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+env/
+venv/
+
+# Data files
+datasets/
+*.csv
+*.h5
+
+# Model files and checkpoints
+models/checkpoints/
+*.keras
+*.hdf5
+
+# TensorBoard log files
+logs/
+events.out.tfevents.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.bak
+*.log
+
+# MacOS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+
+# Ignore anything in the root directory named .env
+.env
+
